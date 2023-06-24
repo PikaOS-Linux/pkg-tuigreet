@@ -3,7 +3,7 @@
 DEBIAN_FRONTEND=noninteractive
 
 # Clone Upstream
-git clone --recurse-submodules https://github.com/apognu/tuigreet
+git clone --recurse-submodules https://github.com/apognu/tuigreet.git
 cd tuigreet
 cp -rvf ../debian ./
 
