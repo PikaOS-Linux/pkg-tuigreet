@@ -6,6 +6,7 @@ DEBIAN_FRONTEND=noninteractive
 git clone --recurse-submodules https://github.com/apognu/tuigreet.git
 cd tuigreet
 cp -rvf ../debian ./
+cp -vf ../Makefile ./Makefile
 
 # Get build deps
 apt-get build-dep ./ -y
