@@ -10,6 +10,7 @@ Rules-Requires-Root: no
 
 Package: tuigreet
 Architecture: linux-any
+Predepends: greetd
 Depends: ${misc:Depends}, greetd
 Provides: tuigreet
 Description: tui greet screen for greetd
