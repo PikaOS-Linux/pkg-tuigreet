@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+
+rm /etc/systemd/system/display-manager.service
+ln -s /lib/systemd/system/greetd.service /etc/systemd/system/display-manager.service
