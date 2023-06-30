@@ -12,5 +12,6 @@ Package: tuigreet
 Architecture: linux-any
 Predepends: greetd
 Depends: ${misc:Depends}, greetd
+Conflicts: gdm3
 Provides: tuigreet
 Description: tui greet screen for greetd
